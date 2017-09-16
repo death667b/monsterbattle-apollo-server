@@ -1,0 +1,107 @@
+{
+  "monsters": [
+    {
+      "name": "George",
+      "attack": 6,
+      "defense": 4,
+      "health": 30,
+      "avatarUrl": "",
+      "id": "SJ5WMQhKZ"
+    },
+    {
+      "name": "Mort",
+      "attack": 100,
+      "defense": 2,
+      "health": 10,
+      "avatarUrl": "",
+      "id": "r1x5ZfQhFb"
+    },
+    {
+      "name": "Steve",
+      "attack": 6,
+      "defense": 4,
+      "health": 30,
+      "avatarUrl": "",
+      "id": "HyW9ZfQ2tW"
+    },
+    {
+      "name": "Donk",
+      "attack": 6,
+      "defense": 4,
+      "health": 30,
+      "avatarUrl": "",
+      "id": "HJMcWzm3F-"
+    },
+    {
+      "name": "Flip",
+      "attack": 6,
+      "defense": 4,
+      "health": 30,
+      "avatarUrl": "",
+      "id": "r1X5WGmhYb"
+    },
+    {
+      "name": "Reginald",
+      "attack": 6,
+      "defense": 4,
+      "health": 30,
+      "avatarUrl": "",
+      "id": "S1NcbzmhK-"
+    },
+    {
+      "name": "Simon",
+      "attack": 6,
+      "defense": 4,
+      "health": 30,
+      "avatarUrl": "",
+      "id": "BJrcbGQntZ"
+    },
+    {
+      "name": "Snot",
+      "attack": 6,
+      "defense": 4,
+      "health": 30,
+      "avatarUrl": "",
+      "id": "Sk8cbMm2Yb"
+    }
+  ],
+	"battles": [
+		{
+      "monster1Name": "George",
+      "monster2Name": "Mort",
+      "id": "SJgffXhY-",
+      "monster1Health": 0,
+      "monster2Health": 3,
+      "started": 1504616968,
+      "finished": 1504616969,
+      "winner": null,
+      "loser": null,
+      "winningMonsterName": "Mort",
+      "losingMonsterName": "George"
+    }
+	],
+	"turns": [
+		{
+      "battleId": "SJgffXhY-",
+      "attackingMonsterName": "George",
+      "defendingMonsterName": "Mort",
+      "id": "HkWGM7hK-",
+      "timestamp": 1504616969,
+      "attackDiceRoll": 3,
+      "attackPower": 9,
+      "defensePower": 2,
+      "damage": 7
+    },
+    {
+      "battleId": "SJgffXhY-",
+      "attackingMonsterName": "Mort",
+      "defendingMonsterName": "George",
+      "id": "ByGMf73Kb",
+      "timestamp": 1504616969,
+      "attackDiceRoll": 4,
+      "attackPower": 104,
+      "defensePower": 4,
+      "damage": 100
+    }
+	]
+}

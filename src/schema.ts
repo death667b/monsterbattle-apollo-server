@@ -10,10 +10,10 @@ const typeDefs = `
 
 	type Battle {	
 		id: String!
-		monster1Name: String!,
 		monster1: Monster!
-		monster2Name: String!,
 		monster2: Monster!
+		monster1Health: Int!
+		monster2Health: Int!
 		turns: [Turn]
 		started: Int!
 		finished: Int
@@ -24,8 +24,9 @@ const typeDefs = `
 	type Turn {	
 		id: String!
 		battleId: String!
-		attackingMonsterName: Monster!
-		defendingMonsterName: Monster!
+		timestamp: Int!
+		attackingMonster: Monster!
+		defendingMonster: Monster!
 		attackDiceRoll: Int!
 		attackPower: Int!
 		defensePower: Int!
@@ -66,7 +67,7 @@ const typeDefs = `
 		): Battle
 
 		doBattleTurn(
-			battleId: Int!
+			battleId: String!
 			attackingMonsterName: String!
 			defendingMonsterName: String!
 		): Battle
